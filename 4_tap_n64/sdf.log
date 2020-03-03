@@ -1,0 +1,13 @@
+======================================================================
+
+Annotating SDF timing data:
+  Compiled SDF file:     barreira.sdf.X
+  Log file:              sdf.log
+  Backannotation scope:  banch:DUT
+  Configuration file:    
+  MTM control:           MAXIMUM
+  Scale factors:         1:1:1
+  Scale type:            FROM_MAXIMUM
+
+Time units: 1ps
+

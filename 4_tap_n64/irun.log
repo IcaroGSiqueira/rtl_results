@@ -1,0 +1,894 @@
+irun(64): 15.20-p001: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-p001: Started on Mar 03, 2020 at 15:15:45 -03
+irun
+	-64bit
+	-top banch
+	banch.v
+	CORE65LPSVT.v
+	martool.v
+	-access +rw
+	-sdf_cmd_file sdf_cmd_file.in
+Recompiling... reason: file './banch.v' is newer than expected.
+	expected: Tue Mar  3 14:18:09 2020
+	actual:   Tue Mar  3 14:52:44 2020
+file: banch.v
+	module worklib.banch:v
+		errors: 0, warnings: 0
+	module worklib.rom_read:v
+		errors: 0, warnings: 0
+file: martool.v
+	module worklib.csa_tree_U_S13_add_18_10_group_25_298:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_299:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_300:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_1_303:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_1_304:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_1_305:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_1:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_9_308:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_9_309:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_9_310:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_2:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_10_313:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_10_314:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_10_315:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_3:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_11_318:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_11_319:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_11_320:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_4:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_12_323:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_12_324:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_12_325:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_5:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_13_328:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_13_329:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_13_330:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_6:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_14:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_14:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_14:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_7:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_15:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_15:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_15:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_8:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_16:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_16:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_16:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_9:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_2_339:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_2_340:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_2_341:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_10:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_3_344:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_3_345:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_3_346:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_11:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_4_349:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_4_350:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_4_351:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_12:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_5_354:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_5_355:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_5_356:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_13:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_6_359:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_6_360:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_6_361:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_14:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_7_364:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_7_365:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_7_366:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_15:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_8_369:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_8_370:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_8_371:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_16:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_374:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_375:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_376:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_17:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_1_379:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_1_380:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_1_381:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_18:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_2_384:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_2_385:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_2_386:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_19:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_3_389:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_3_390:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_3_391:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_20:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_4_394:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_4_395:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_4_396:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_21:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_5_399:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_5_400:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_5_401:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_22:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_6_404:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_6_405:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_6_406:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_23:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_7_409:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_7_410:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_7_411:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_24:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_8_414:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_8_415:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_8_416:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_25:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_9_419:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_9_420:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_9_421:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_26:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_10_424:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_10_425:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_10_426:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_27:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_11_429:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_11_430:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_11_431:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_28:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_12_434:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_12_435:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_12_436:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_29:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_13_439:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_13_440:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_13_441:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_30:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_14_444:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_14_445:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_14_446:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_31:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_15_449:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_15_450:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_15_451:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_32:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_16_454:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_16_455:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_16_456:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_33:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_459:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_460:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_461:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_34:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_1_464:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_1_465:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_1_466:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_35:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_2_469:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_2_470:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_2_471:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_36:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_3_474:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_3_475:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_3_476:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_37:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_4_479:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_4_480:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_4_481:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_38:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_5_484:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_5_485:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_5_486:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_39:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_6_489:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_6_490:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_6_491:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_40:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_7_494:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_7_495:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_7_496:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_41:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_8_499:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_8_500:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_8_501:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_42:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_9_504:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_9_505:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_9_506:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_43:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_10_509:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_10_510:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_10_511:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_44:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_11_514:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_11_515:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_11_516:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_45:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_12_519:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_12_520:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_12_521:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_46:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_13_524:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_13_525:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_13_526:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_47:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_14_529:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_14_530:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_14_531:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_48:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_15_534:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_15_535:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_15_536:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_49:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_16_539:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_16_540:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_16_541:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_50:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_51:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_1:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_1:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_1:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_52:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_2:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_2:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_2:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_53:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_3:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_3:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_3:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_54:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_4:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_4:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_4:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_55:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_5:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_5:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_5:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_56:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_6:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_6:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_6:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_57:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_7:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_7:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_7:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_58:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_8:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_8:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_8:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_59:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_9:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_9:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_9:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_60:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_10:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_10:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_10:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_61:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_11:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_11:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_11:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_62:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_12:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_12:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_12:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_63:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_25_13:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s3_add_18_10_group_23_13:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_s23_add_18_10_group_21_13:v
+		errors: 0, warnings: 0
+	module worklib.filter_4_bit_width10_64:v
+		errors: 0, warnings: 0
+	module worklib.INTER_4:v
+		errors: 0, warnings: 0
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	INTER_4 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	          |
+ncelab: *W,CUVWSP (./banch.v,33|11): 195 output ports were not connected:
+ncelab: (./martool.v,64092): out_inter[194]
+ncelab: (./martool.v,64092): out_inter[193]
+ncelab: (./martool.v,64092): out_inter[192]
+ncelab: (./martool.v,64093): out_inter[191]
+ncelab: (./martool.v,64093): out_inter[190]
+ncelab: (./martool.v,64093): out_inter[189]
+ncelab: (./martool.v,64094): out_inter[188]
+ncelab: (./martool.v,64094): out_inter[187]
+ncelab: (./martool.v,64094): out_inter[186]
+ncelab: (./martool.v,64095): out_inter[185]
+ncelab: (./martool.v,64095): out_inter[184]
+ncelab: (./martool.v,64095): out_inter[183]
+ncelab: (./martool.v,64096): out_inter[182]
+ncelab: (./martool.v,64096): out_inter[181]
+ncelab: (./martool.v,64096): out_inter[180]
+ncelab: (./martool.v,64097): out_inter[179]
+ncelab: (./martool.v,64097): out_inter[178]
+ncelab: (./martool.v,64097): out_inter[177]
+ncelab: (./martool.v,64098): out_inter[176]
+ncelab: (./martool.v,64098): out_inter[175]
+ncelab: (./martool.v,64098): out_inter[174]
+ncelab: (./martool.v,64099): out_inter[173]
+ncelab: (./martool.v,64099): out_inter[172]
+ncelab: (./martool.v,64099): out_inter[171]
+ncelab: (./martool.v,64100): out_inter[170]
+ncelab: (./martool.v,64100): out_inter[169]
+ncelab: (./martool.v,64100): out_inter[168]
+ncelab: (./martool.v,64101): out_inter[167]
+ncelab: (./martool.v,64101): out_inter[166]
+ncelab: (./martool.v,64101): out_inter[165]
+ncelab: (./martool.v,64102): out_inter[164]
+ncelab: (./martool.v,64102): out_inter[163]
+ncelab: (./martool.v,64102): out_inter[162]
+ncelab: (./martool.v,64103): out_inter[161]
+ncelab: (./martool.v,64103): out_inter[160]
+ncelab: (./martool.v,64103): out_inter[159]
+ncelab: (./martool.v,64104): out_inter[158]
+ncelab: (./martool.v,64104): out_inter[157]
+ncelab: (./martool.v,64104): out_inter[156]
+ncelab: (./martool.v,64105): out_inter[155]
+ncelab: (./martool.v,64105): out_inter[154]
+ncelab: (./martool.v,64105): out_inter[153]
+ncelab: (./martool.v,64106): out_inter[152]
+ncelab: (./martool.v,64106): out_inter[151]
+ncelab: (./martool.v,64106): out_inter[150]
+ncelab: (./martool.v,64107): out_inter[149]
+ncelab: (./martool.v,64107): out_inter[148]
+ncelab: (./martool.v,64107): out_inter[147]
+ncelab: (./martool.v,64108): out_inter[146]
+ncelab: (./martool.v,64108): out_inter[145]
+	...(etc)...
+
+	INTER_4 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	          |
+ncelab: *W,CUVWSI (./banch.v,33|11): 66 input ports were not connected:
+ncelab: (./martool.v,64079): linha[63]
+ncelab: (./martool.v,64079): linha[62]
+ncelab: (./martool.v,64079): linha[61]
+ncelab: (./martool.v,64079): linha[60]
+ncelab: (./martool.v,64079): linha[59]
+ncelab: (./martool.v,64080): linha[58]
+ncelab: (./martool.v,64080): linha[57]
+ncelab: (./martool.v,64080): linha[56]
+ncelab: (./martool.v,64080): linha[55]
+ncelab: (./martool.v,64080): linha[54]
+ncelab: (./martool.v,64081): linha[53]
+ncelab: (./martool.v,64081): linha[52]
+ncelab: (./martool.v,64081): linha[51]
+ncelab: (./martool.v,64081): linha[50]
+ncelab: (./martool.v,64081): linha[49]
+ncelab: (./martool.v,64082): linha[48]
+ncelab: (./martool.v,64082): linha[47]
+ncelab: (./martool.v,64082): linha[46]
+ncelab: (./martool.v,64082): linha[45]
+ncelab: (./martool.v,64082): linha[44]
+ncelab: (./martool.v,64083): linha[43]
+ncelab: (./martool.v,64083): linha[42]
+ncelab: (./martool.v,64083): linha[41]
+ncelab: (./martool.v,64083): linha[40]
+ncelab: (./martool.v,64083): linha[39]
+ncelab: (./martool.v,64084): linha[38]
+ncelab: (./martool.v,64084): linha[37]
+ncelab: (./martool.v,64084): linha[36]
+ncelab: (./martool.v,64084): linha[35]
+ncelab: (./martool.v,64084): linha[34]
+ncelab: (./martool.v,64085): linha[33]
+ncelab: (./martool.v,64085): linha[32]
+ncelab: (./martool.v,64085): linha[31]
+ncelab: (./martool.v,64085): linha[30]
+ncelab: (./martool.v,64085): linha[29]
+ncelab: (./martool.v,64086): linha[28]
+ncelab: (./martool.v,64086): linha[27]
+ncelab: (./martool.v,64086): linha[26]
+ncelab: (./martool.v,64086): linha[25]
+ncelab: (./martool.v,64086): linha[24]
+ncelab: (./martool.v,64087): linha[23]
+ncelab: (./martool.v,64087): linha[22]
+ncelab: (./martool.v,64087): linha[21]
+ncelab: (./martool.v,64087): linha[20]
+ncelab: (./martool.v,64087): linha[19]
+ncelab: (./martool.v,64088): linha[18]
+ncelab: (./martool.v,64088): linha[17]
+ncelab: (./martool.v,64088): linha[16]
+ncelab: (./martool.v,64088): linha[15]
+ncelab: (./martool.v,64088): linha[14]
+	...(etc)...
+
+	Top level design units:
+		banch
+	rom_read    #(IN,HALF_N)  memory1  (K, input_A1[0], in_rst); //chamando memoria la de baixo	
+	                                              |
+ncelab: *W,CUVMPW (./banch.v,32|47): port sizes differ in port connection (10/1).
+	rom_read    #(IN,HALF_N)  memory1  (K, input_A1[0], in_rst); //chamando memoria la de baixo	
+	                                                         |
+ncelab: *W,CUVMPW (./banch.v,32|58): port sizes differ in port connection (1/64).
+	INTER_4 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	                             |
+ncelab: *W,CUVMPW (./banch.v,33|30): port sizes differ in port connection (1/10).
+	INTER_4 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	                                     |
+ncelab: *W,CUVMPW (./banch.v,33|38): port sizes differ in port connection (1/10).
+	Annotating SDF timing data:
+		Compiled SDF file:     barreira.sdf.X
+		Log file:              sdf.log
+		Backannotation scope:  banch:DUT
+		Configuration file:    
+		MTM control:           MAXIMUM
+		Scale factors:         1:1:1
+		Scale type:            FROM_MAXIMUM
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 219703  Annotated = 100.00% -- No. of Tchecks = 23670  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	      219703	      219703	      100.00
+		      $width	        7890	        7890	      100.00
+		     $recrem	        5260	        5260	      100.00
+		  $setuphold	       10520	       10520	      100.00
+	Building instance overlay tables: 
+  in_rst = a0_rom[K] ;
+                  |
+ncelab: *W,BIGWIX (./banch.v,93|18): Memory index truncation.
+input_A1 = a1_rom[K] ;
+                  |
+ncelab: *W,BIGWIX (./banch.v,95|18): Memory index truncation.
+.................... Done
+	Generating native compiled code:
+		worklib.HS65_LSS_XNOR3X12:v <0x091a58ab>
+			streams:   0, words:     0
+		worklib.HS65_LSS_XNOR3X8:v <0x687e4f72>
+			streams:   0, words:     0
+		worklib.HS65_LSS_XOR2X12:v <0x545e7301>
+			streams:   0, words:     0
+		worklib.HS65_LSS_XOR2X3:v <0x33f7064e>
+			streams:   0, words:     0
+		worklib.HS65_LSS_XOR3X12:v <0x3eb23227>
+			streams:   0, words:     0
+		worklib.HS65_LS_HA1X27:v <0x3cb428c8>
+			streams:   0, words:     0
+		worklib.HS65_LS_HA1X35:v <0x756daffb>
+			streams:   0, words:     0
+		worklib.HS65_LS_MUXI21X10:v <0x0c5d84ff>
+			streams:   0, words:     0
+		worklib.HS65_LS_MUXI21X15:v <0x599aaa08>
+			streams:   0, words:     0
+		worklib.HS65_LS_MUXI21X5:v <0x5cbcc567>
+			streams:   0, words:     0
+		worklib.HS65_LS_OAI21X24:v <0x076e104a>
+			streams:   0, words:     0
+		worklib.HS65_LS_PAO2X27:v <0x30364e7c>
+			streams:   0, words:     0
+		worklib.HS65_LS_XNOR3X18:v <0x0405a6dc>
+			streams:   0, words:     0
+		worklib.HS65_LS_XNOR3X27:v <0x19872fd5>
+			streams:   0, words:     0
+		worklib.HS65_LS_XOR3X9:v <0x30c98858>
+			streams:   0, words:     0
+		worklib.INTER_4:v <0x55d4624d>
+			streams:   0, words:     0
+		worklib.banch:v <0x56ddf516>
+			streams:   5, words:  3271
+		worklib.filter_4_bit_width10:v <0x1153e1e7>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_10:v <0x6d593970>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_11:v <0x589b3f32>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_12:v <0x06dd35f4>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_13:v <0x331f33b6>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_14:v <0x0bb790ea>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_15:v <0x3e7596a8>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_16:v <0x60339c6e>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_17:v <0x55f19a2c>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_18:v <0x29debdb3>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_19:v <0x1c1cbbf1>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_1:v <0x2ccde3e2>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_20:v <0x2ee6a86d>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_21:v <0x1b24ae2f>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_22:v <0x4562a4e9>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_23:v <0x70a0a2ab>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_24:v <0x480801f7>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_25:v <0x7dca07b5>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_26:v <0x238c0d73>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_27:v <0x164e0b31>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_28:v <0x6a612cae>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_29:v <0x5fa32aec>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_2:v <0x36b943c4>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_30:v <0x36014ad7>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_31:v <0x03c34c95>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_32:v <0x5d854653>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_33:v <0x09d86142>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_34:v <0x199651c0>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_35:v <0x6be8c697>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_36:v <0x2ec1c528>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_37:v <0x05b2e69e>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_38:v <0x79329f46>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_39:v <0x5241bcf0>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_3:v <0x3b68232e>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_40:v <0x4176452e>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_41:v <0x6a056698>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_42:v <0x2f2c6527>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_43:v <0x045f4691>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_44:v <0x46b3037d>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_45:v <0x6dc020cb>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_46:v <0x28e92374>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_47:v <0x039a00c2>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_48:v <0x1240ba08>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_49:v <0x507d6897>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_4:v <0x1b685997>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_50:v <0x30a415d1>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_51:v <0x67710f8b>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_52:v <0x3488a0c4>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_53:v <0x0cf5030f>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_54:v <0x345da053>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_55:v <0x019fa611>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_56:v <0x5fd9acd7>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_57:v <0x6a1baa95>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_58:v <0x16348d0a>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_59:v <0x40a781a3>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_5:v <0x486dbcea>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_60:v <0x5c07da6a>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_61:v <0x7e7a0566>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_62:v <0x66588487>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_63:v <0x7469f72f>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_64:v <0x2544ea55>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_6:v <0x162bb62c>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_7:v <0x23e9b06e>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_8:v <0x5fc697f1>
+			streams:   0, words:     0
+		worklib.filter_4_bit_width10_9:v <0x6a0491b3>
+			streams:   0, words:     0
+		worklib.rom_read:v <0x2617a81e>
+			streams:   2, words:  1556
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                      Instances  Unique
+		Modules:                  46727     406
+		UDPs:                      2731       2
+		Primitives:              100418       5
+		Timing outputs:           53618      96
+		Registers:                 2638      15
+		Scalar wires:             66367       -
+		Expanded wires:              74       2
+		Vectored wires:               1       -
+		Always blocks:                2       2
+		Initial blocks:               3       3
+		Pseudo assignments:           2       2
+		Timing checks:            23670    5262
+		Interconnect:             99204       -
+		Delayed tcheck signals:    7890    2632
+		Simulation timescale:       1ps
+	Writing initial simulation snapshot: worklib.banch:v
+Loading snapshot worklib.banch:v .................... Done
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "/home/mgsilva/rafael_s/example/sbox_v1/rtl/reset.txt".
+            File: ./banch.v, line = 85, pos = 73
+           Scope: banch.memory1
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "/home/mgsilva/rafael_s/example/sbox_v1/rtl/4tap_n64.txt".
+            File: ./banch.v, line = 86, pos = 77
+           Scope: banch.memory1
+            Time: 0 FS + 0
+
+Simulation complete via $finish(1) at time 46255 US + 0
+./banch.v:59 $finish; 
+ncsim> exit
+TOOL:	irun(64)	15.20-p001: Exiting on Mar 03, 2020 at 15:15:52 -03  (total: 00:00:07)
