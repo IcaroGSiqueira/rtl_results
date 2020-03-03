@@ -1,0 +1,116 @@
+irun(64): 15.20-p001: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-p001: Started on Mar 03, 2020 at 16:23:12 -03
+irun
+	-64bit
+	-top banch
+	banch.v
+	CORE65LPSVT.v
+	martool.v
+	-access +rw
+	-sdf_cmd_file sdf_cmd_file.in
+Recompiling... reason: file './banch.v' is newer than expected.
+	expected: Tue Mar  3 15:41:53 2020
+	actual:   Tue Mar  3 16:20:44 2020
+file: banch.v
+	module worklib.banch:v
+		errors: 0, warnings: 0
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	INTER_2 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	          |
+ncelab: *W,CUVWSP (./banch.v,33|11): 15 output ports were not connected:
+ncelab: (./martool.v,3908): out_inter[14]
+ncelab: (./martool.v,3908): out_inter[13]
+ncelab: (./martool.v,3909): out_inter[12]
+ncelab: (./martool.v,3909): out_inter[11]
+ncelab: (./martool.v,3909): out_inter[10]
+ncelab: (./martool.v,3909): out_inter[9]
+ncelab: (./martool.v,3910): out_inter[8]
+ncelab: (./martool.v,3910): out_inter[7]
+ncelab: (./martool.v,3910): out_inter[6]
+ncelab: (./martool.v,3910): out_inter[5]
+ncelab: (./martool.v,3911): out_inter[4]
+ncelab: (./martool.v,3911): out_inter[3]
+ncelab: (./martool.v,3911): out_inter[2]
+ncelab: (./martool.v,3911): out_inter[1]
+ncelab: (./martool.v,3912): out_inter[0]
+
+	INTER_2 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	          |
+ncelab: *W,CUVWSI (./banch.v,33|11): 4 input ports were not connected:
+ncelab: (./martool.v,3908): linha[1]
+ncelab: (./martool.v,3908): linha[0]
+ncelab: (./martool.v,3908): clk
+ncelab: (./martool.v,3908): rst
+
+	Top level design units:
+		banch
+	rom_read    #(IN,HALF_N)  memory1  (K, input_A1[0], in_rst); //chamando memoria la de baixo	
+	                                              |
+ncelab: *W,CUVMPW (./banch.v,32|47): port sizes differ in port connection (10/1).
+	rom_read    #(IN,HALF_N)  memory1  (K, input_A1[0], in_rst); //chamando memoria la de baixo	
+	                                                         |
+ncelab: *W,CUVMPW (./banch.v,32|58): port sizes differ in port connection (1/64).
+	INTER_2 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	                             |
+ncelab: *W,CUVMPW (./banch.v,33|30): port sizes differ in port connection (1/10).
+	INTER_2 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	                                     |
+ncelab: *W,CUVMPW (./banch.v,33|38): port sizes differ in port connection (1/10).
+	Annotating SDF timing data:
+		Compiled SDF file:     barreira.sdf.X
+		Log file:              sdf.log
+		Backannotation scope:  banch:DUT
+		Configuration file:    
+		MTM control:           MAXIMUM
+		Scale factors:         1:1:1
+		Scale type:            FROM_MAXIMUM
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 9187  Annotated = 100.00% -- No. of Tchecks = 1620  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        9187	        9187	      100.00
+		      $width	         540	         540	      100.00
+		     $recrem	         360	         360	      100.00
+		  $setuphold	         720	         720	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.banch:v <0x6472db59>
+			streams:   5, words:  3271
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                 2390     130
+		UDPs:                     200       2
+		Primitives:              4537       5
+		Timing outputs:          2597      51
+		Registers:                188      12
+		Scalar wires:            4013       -
+		Expanded wires:            74       2
+		Vectored wires:             1       -
+		Always blocks:              2       2
+		Initial blocks:             3       3
+		Cont. assignments:          0      30
+		Pseudo assignments:         2       2
+		Timing checks:           1620     362
+		Interconnect:            4957       -
+		Delayed tcheck signals:   540     182
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.banch:v
+Loading snapshot worklib.banch:v .................... Done
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "/home/mgsilva/rafael_s/example/sbox_v1/rtl/reset.txt".
+            File: ./banch.v, line = 85, pos = 73
+           Scope: banch.memory1
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "/home/mgsilva/rafael_s/example/sbox_v1/rtl/2tap_n4.txt".
+            File: ./banch.v, line = 86, pos = 76
+           Scope: banch.memory1
+            Time: 0 FS + 0
+
+Simulation complete via $finish(1) at time 375 US + 0
+./banch.v:59 $finish; 
+ncsim> exit
+TOOL:	irun(64)	15.20-p001: Exiting on Mar 03, 2020 at 16:23:14 -03  (total: 00:00:02)
