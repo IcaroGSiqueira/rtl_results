@@ -1,0 +1,955 @@
+irun(64): 15.20-p001: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-p001: Started on Mar 03, 2020 at 21:26:35 -03
+irun
+	-64bit
+	-top banch
+	banch.v
+	CORE65LPSVT.v
+	martool.v
+	-access +rw
+	-sdf_cmd_file sdf_cmd_file.in
+Recompiling... reason: file './banch.v' is newer than expected.
+	expected: Tue Mar  3 19:52:04 2020
+	actual:   Tue Mar  3 21:02:09 2020
+file: martool.v
+	module worklib.add_signed_511_1720:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2276:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2210:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2243:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2177:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1653:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2144:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1951:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1967:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2000:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1984:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1716:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2209:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2274:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2208:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2275:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1717:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2242:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2241:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1652:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2176:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2175:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1651:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2143:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2142:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1952:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_1:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1968:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2001:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_1:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1985:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_1:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_1:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1684:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2193:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2258:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2192:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2259:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1685:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2226:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2225:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1636:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2160:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2159:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1635:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2127:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2126:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1960:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_9:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1976:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2009:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_9:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1993:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_9:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_2:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1680:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2191:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2256:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2190:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2257:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1681:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2224:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2223:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1634:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2158:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2157:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1633:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2125:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2124:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1961:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_10:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1977:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2010:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_10:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1994:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_10:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_3:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1676:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2189:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2254:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2188:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2255:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1677:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2222:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2221:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1632:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2156:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2155:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1631:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2123:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2122:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1962:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_11:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1978:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2011:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_11:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1995:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_11:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_4:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1672:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2187:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2252:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2186:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2253:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1673:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2220:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2219:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1630:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2154:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2153:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1629:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2121:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2120:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1963:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_12:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1979:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2012:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_12:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1996:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_12:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_5:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1668:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2185:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2250:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2184:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2251:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1669:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2218:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2217:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1628:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2152:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2151:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1627:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2119:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2118:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1964:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_13:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1980:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2013:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_13:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1997:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_13:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_6:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1664:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2183:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2248:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2182:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2249:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1665:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2216:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2215:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1626:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2150:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2149:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1625:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2117:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2116:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1965:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_14:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1981:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2014:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_14:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1998:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_14:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_7:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1660:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2181:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2246:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2180:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2247:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1661:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2214:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2213:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1624:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2148:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2147:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1623:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2115:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2114:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1966:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_15:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1982:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2015:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_15:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1999:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_15:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_8:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1656:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2179:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2244:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2178:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2245:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1657:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2212:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2211:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1622:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2146:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2145:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1621:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2113:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2112:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_16:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_16:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_16:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_9:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1712:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2207:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2272:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2206:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2273:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1713:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2240:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2239:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1650:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2174:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2173:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1649:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2141:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2140:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1953:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_2:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1969:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2002:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_2:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1986:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_2:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_10:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1708:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2205:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2270:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2204:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2271:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1709:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2238:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2237:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1648:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2172:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2171:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1647:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2139:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2138:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1954:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_3:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1970:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2003:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_3:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1987:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_3:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_11:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1704:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2203:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2268:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2202:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2269:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1705:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2236:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2235:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1646:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2170:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2169:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1645:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2137:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2136:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1955:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_4:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1971:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2004:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_4:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1988:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_4:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_12:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1700:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2201:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2266:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2200:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2267:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1701:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2234:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2233:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1644:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2168:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2167:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1643:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2135:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2134:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1956:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_5:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1972:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2005:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_5:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1989:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_5:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_13:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1696:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2199:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2264:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2198:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2265:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1697:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2232:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2231:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1642:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2166:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2165:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1641:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2133:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2132:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1957:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_6:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1973:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2006:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_6:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1990:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_6:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_14:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1692:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2197:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2262:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2196:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2263:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1693:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2230:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2229:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1640:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2164:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2163:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1639:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2131:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2130:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1958:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_7:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1974:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2007:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_7:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1991:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_7:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_15:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1688:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2195:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2260:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1719_2194:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_506_2261:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_511_1689:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2228:v
+		errors: 0, warnings: 0
+	module worklib.add_unsigned_487_2227:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1638:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2162:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_32_2161:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_168_1637:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2129:v
+		errors: 0, warnings: 0
+	module worklib.add_signed_carry_10_2128:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S3_add_18_10_group_532_1959:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S5_add_18_10_group_45_8:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S13_add_18_10_group_41_1975:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S14_add_18_10_group_39_2008:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S15_add_41_16_group_37_8:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S23_add_18_10_group_530_1992:v
+		errors: 0, warnings: 0
+	module worklib.csa_tree_U_S25_add_18_10_group_43_8:v
+		errors: 0, warnings: 0
+	module worklib.filter_6_bit_width10_16:v
+		errors: 0, warnings: 0
+	module worklib.INTER_6:v
+		errors: 0, warnings: 0
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	INTER_6 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	          |
+ncelab: *W,CUVWSP (./banch.v,33|11): 51 output ports were not connected:
+ncelab: (./martool.v,24608): out_inter[50]
+ncelab: (./martool.v,24609): out_inter[49]
+ncelab: (./martool.v,24609): out_inter[48]
+ncelab: (./martool.v,24609): out_inter[47]
+ncelab: (./martool.v,24609): out_inter[46]
+ncelab: (./martool.v,24610): out_inter[45]
+ncelab: (./martool.v,24610): out_inter[44]
+ncelab: (./martool.v,24610): out_inter[43]
+ncelab: (./martool.v,24611): out_inter[42]
+ncelab: (./martool.v,24611): out_inter[41]
+ncelab: (./martool.v,24611): out_inter[40]
+ncelab: (./martool.v,24611): out_inter[39]
+ncelab: (./martool.v,24612): out_inter[38]
+ncelab: (./martool.v,24612): out_inter[37]
+ncelab: (./martool.v,24612): out_inter[36]
+ncelab: (./martool.v,24613): out_inter[35]
+ncelab: (./martool.v,24613): out_inter[34]
+ncelab: (./martool.v,24613): out_inter[33]
+ncelab: (./martool.v,24613): out_inter[32]
+ncelab: (./martool.v,24614): out_inter[31]
+ncelab: (./martool.v,24614): out_inter[30]
+ncelab: (./martool.v,24614): out_inter[29]
+ncelab: (./martool.v,24615): out_inter[28]
+ncelab: (./martool.v,24615): out_inter[27]
+ncelab: (./martool.v,24615): out_inter[26]
+ncelab: (./martool.v,24615): out_inter[25]
+ncelab: (./martool.v,24616): out_inter[24]
+ncelab: (./martool.v,24616): out_inter[23]
+ncelab: (./martool.v,24616): out_inter[22]
+ncelab: (./martool.v,24617): out_inter[21]
+ncelab: (./martool.v,24617): out_inter[20]
+ncelab: (./martool.v,24617): out_inter[19]
+ncelab: (./martool.v,24617): out_inter[18]
+ncelab: (./martool.v,24618): out_inter[17]
+ncelab: (./martool.v,24618): out_inter[16]
+ncelab: (./martool.v,24618): out_inter[15]
+ncelab: (./martool.v,24619): out_inter[14]
+ncelab: (./martool.v,24619): out_inter[13]
+ncelab: (./martool.v,24619): out_inter[12]
+ncelab: (./martool.v,24619): out_inter[11]
+ncelab: (./martool.v,24620): out_inter[10]
+ncelab: (./martool.v,24620): out_inter[9]
+ncelab: (./martool.v,24620): out_inter[8]
+ncelab: (./martool.v,24620): out_inter[7]
+ncelab: (./martool.v,24621): out_inter[6]
+ncelab: (./martool.v,24621): out_inter[5]
+ncelab: (./martool.v,24621): out_inter[4]
+ncelab: (./martool.v,24621): out_inter[3]
+ncelab: (./martool.v,24622): out_inter[2]
+ncelab: (./martool.v,24622): out_inter[1]
+	...(etc)...
+
+	INTER_6 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	          |
+ncelab: *W,CUVWSI (./banch.v,33|11): 20 input ports were not connected:
+ncelab: (./martool.v,24605): linha[17]
+ncelab: (./martool.v,24605): linha[16]
+ncelab: (./martool.v,24605): linha[15]
+ncelab: (./martool.v,24605): linha[14]
+ncelab: (./martool.v,24605): linha[13]
+ncelab: (./martool.v,24606): linha[12]
+ncelab: (./martool.v,24606): linha[11]
+ncelab: (./martool.v,24606): linha[10]
+ncelab: (./martool.v,24606): linha[9]
+ncelab: (./martool.v,24606): linha[8]
+ncelab: (./martool.v,24607): linha[7]
+ncelab: (./martool.v,24607): linha[6]
+ncelab: (./martool.v,24607): linha[5]
+ncelab: (./martool.v,24607): linha[4]
+ncelab: (./martool.v,24607): linha[3]
+ncelab: (./martool.v,24608): linha[2]
+ncelab: (./martool.v,24608): linha[1]
+ncelab: (./martool.v,24608): linha[0]
+ncelab: (./martool.v,24608): clk
+ncelab: (./martool.v,24608): rst
+
+	Top level design units:
+		banch
+	rom_read    #(IN,HALF_N)  memory1  (K, input_A1[0], in_rst); //chamando memoria la de baixo	
+	                                              |
+ncelab: *W,CUVMPW (./banch.v,32|47): port sizes differ in port connection (10/1).
+	rom_read    #(IN,HALF_N)  memory1  (K, input_A1[0], in_rst); //chamando memoria la de baixo	
+	                                                         |
+ncelab: *W,CUVMPW (./banch.v,32|58): port sizes differ in port connection (1/64).
+	INTER_6 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	                             |
+ncelab: *W,CUVMPW (./banch.v,33|30): port sizes differ in port connection (1/10).
+	INTER_6 DUT ( input_A1[0], clk, in_rst, out_S1[0][0]); 	// o Modulo principal do circuito
+	                                     |
+ncelab: *W,CUVMPW (./banch.v,33|38): port sizes differ in port connection (1/10).
+	Annotating SDF timing data:
+		Compiled SDF file:     barreira.sdf.X
+		Log file:              sdf.log
+		Backannotation scope:  banch:DUT
+		Configuration file:    
+		MTM control:           MAXIMUM
+		Scale factors:         1:1:1
+		Scale type:            FROM_MAXIMUM
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 100677  Annotated = 100.00% -- No. of Tchecks = 6570  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	      100677	      100677	      100.00
+		      $width	        2190	        2190	      100.00
+		     $recrem	        1460	        1460	      100.00
+		  $setuphold	        2920	        2920	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.HS65_LSS_XOR3X4:v <0x4c8a9653>
+			streams:   0, words:     0
+		worklib.HS65_LS_MX41X7:v <0x49225ca5>
+			streams:   0, words:     0
+		worklib.HS65_LS_PAO2X9:v <0x18d5fbeb>
+			streams:   0, words:     0
+		worklib.INTER_6:v <0x3d2c7875>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10:v <0x05f38c17>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_10:v <0x329f0ccc>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_11:v <0x043b4d39>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_12:v <0x5fd78f26>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_13:v <0x6973ced3>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_14:v <0x258e2659>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_15:v <0x532e425c>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_16:v <0x293d530f>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_1:v <0x5d458074>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_2:v <0x1a9d1c36>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_3:v <0x2c395dc3>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_4:v <0x2d449808>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_5:v <0x1be0d9fd>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_6:v <0x400c1be2>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_7:v <0x76a85a17>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_8:v <0x19869635>
+			streams:   0, words:     0
+		worklib.filter_6_bit_width10_9:v <0x2f22d7c0>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                 10638     441
+		UDPs:                      798       2
+		Primitives:              30389       5
+		Timing outputs:          14783      50
+		Registers:                 738      13
+		Scalar wires:            21751       -
+		Expanded wires:             74       2
+		Vectored wires:              1       -
+		Always blocks:               2       2
+		Initial blocks:              3       3
+		Pseudo assignments:          2       2
+		Timing checks:            6570    1462
+		Interconnect:            24759       -
+		Delayed tcheck signals:   2190     732
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.banch:v
+Loading snapshot worklib.banch:v .................... Done
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "/home/mgsilva/rafael_s/example/sbox_v1/rtl/reset.txt".
+            File: ./banch.v, line = 85, pos = 73
+           Scope: banch.memory1
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "/home/mgsilva/rafael_s/example/sbox_v1/rtl/6tap_n16.txt".
+            File: ./banch.v, line = 86, pos = 77
+           Scope: banch.memory1
+            Time: 0 FS + 0
+
+Simulation complete via $finish(1) at time 4855 US + 0
+./banch.v:59 $finish; 
+ncsim> exit
+TOOL:	irun(64)	15.20-p001: Exiting on Mar 03, 2020 at 21:26:39 -03  (total: 00:00:04)
